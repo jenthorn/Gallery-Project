@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hotel Bookings</title>
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display|Lora|Karla' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.2/flickity.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.2/flickity.pkgd.min.js"></script>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<div class="topBar">
+		<div class="wrapper flexwrap">
+			<div class="weather">
+				<img src="images/temp-icon.png" alt="Weather Icon">
+				<p>London DC, GR 17&degC</p>
+			</div>
+			<div class="login">
+				<p>login |</p>
+				<p>register</p>
+				<img src="images/union-jack.png" alt="Union Jack Flag">
+			</div>
+		</div>
+	</div>
+	<!-- end of top blue bar -->
+
+
+	<!-- Start of header -->
+	<div class="header">
+		<div class="wrapper flexwrap">
+			<div class="logo">
+				<h1>Hotel Booking</h1>
+			</div>
+
+			<div class="navContact">
+				<ul class="mainNav">
+					<li><span>Home</span></li>
+					<li>Accomodation</li>
+					<li>Gallery</li>
+					<li>Pages <img src="images/dropdown-arrow.png" alt="dropdown arrow"></li>
+					<li>News</li>
+					<li>Contact</li>
+					<li><img src="images/call-icon.png" alt="phone">123 456 7890</li>
+				</ul>
+
+				<!-- <div class="call">
+					<img src="images/call-icon.png" alt="phone">
+					<p>123 456 7890</p>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<!-- end of Header -->
+
+	<div class="feature">
+		<!-- end of text on top of images -->
+		<div class="gallery js-flickity" data-flickity-options='{"imagesLoaded": true, "infinite": true, "pageDots": false, "imagesLoaded" : true, "wrapAround": true}'>
+			<img src="images/featureSlide1.png" alt="">
+			<img src="images/featureSlide3.png" alt="">
+			<img src="images/featureSlide5.png" alt="">
+		</div>
+		<div class="headline">
+			<h2>Book your summer 2015<br> Holidays with <span>Hotel</span>!</h2>
+			<div class="circle">
+				<p>special offer <br>on booking</span></p>
+				<div class="priceFeature">
+					<p class="percentOffValue">50<span>%</span></p>
+					<p class="percentOff">off</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+<!-- end of flickity -->
+
+<div class="booking">
+	<div class="wrapper">
+		<div class="book">
+			<h2><span>Book your</span><br> Rooms</h2>
+			<form action="">
+				<div class="inputWrapper">
+					<input type="text" placeholder="ARRIVAL">
+					<i class="fa fa-calendar-o"></i>
+				</div>
+				<div class="inputWrapper">
+					<input type="text" placeholder="DEPARTURE">
+					<i class="fa fa-calendar-o"></i>
+				</div>
+				<div class="inputWrapper">
+					<input type="text" placeholder="1 ROOM">
+					<i class="fa fa-angle-down"></i>
+				</div>
+				<div class="inputWrapper">
+					<input type="text" placeholder="1 ADULT">
+					<i class="fa fa-angle-down"></i>
+				</div>
+				<div class="inputWrapper">
+					<input type="text" placeholder="0 CHILD">
+					<i class="fa fa-angle-down"></i>
+				</div>
+			</form>
+			<input type="submit" class="button"value="BOOK">
+		</div>
+
+		<div class="services">
+			<div class="service">
+				<img src="01_hotel/assets/restaurant-icon.png" alt="">
+				<h3>Restaurant</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, libero!</p>
+			</div>
+			<div class="service">
+				<img src="01_hotel/assets/golf-club.png" alt="">
+				<h3>Sports Club</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, quo.</p>
+			</div>
+			<div class="service pickUp" >
+				<img src="01_hotel/assets/pickup-icon.png" alt="">
+				<h3>Pick Up</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quas!</p>
+			</div>
+			<div class="service">
+				<img src="01_hotel/assets/bar-icon.png" alt="">
+				<h3>Bar</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, dolore.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end of services -->
+
+<div class="rooms">
+	<div class="wrapper">
+		<div class="headingWrapper">
+			<h2>Select Your Room</h2>
+			<img src="images/fleur .png" alt="">
+		</div>
+
+		<div class="roomFeature">
+			<div class="deluxeRoom roomContainer">
+				<img src="images/room.png" alt=""><!-- enter 749x456 image of room one -->
+				<div class="featureBox featureBox1">
+					<h3>Deluxe Room</h3>
+					<p> | $180 <span>/night</span></p>
+					<p class="bookButton">BOOK</p>
+				</div>
+			</div>
+			<div class="roomStack">
+				<div class="room1 roomContainer">
+					<img src="images/room3.png" alt="">
+
+					<div class="featureBox featureBox2">
+						<h3>Classic Room</h3>
+						<p> | $150 <span>/night</span></p>
+						<p class="bookButton">BOOK</p>
+					</div>
+				</div>
+				<div class="room2 roomContainer">
+					<img src="images/room2.png" alt="">
+
+					<div class="featureBox featureBox2">
+						<h3>Executive Room</h3>
+						<p> | $130<span>/night</span></p>
+						<p class="bookButton">BOOK</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="buttonHolder">
+			<input type="submit" value="View All Rooms">
+		</div>
+	</div>
+</div>
+<!-- end of rooms section -->
+
+<div class="showcase">
+	<div class="wrapper">
+		<div class="headingWrapper">
+			<h2>Hotel Showcase</h2>
+			<img src="images/fleur .png" alt="">
+		</div>	
+	</div>
+	<div class="gallery js-flickity" data-flickity-options='{"imagesLoaded": true, "infinite": true, "pageDots": false, "imagesLoaded" : true, "wrapAround": true}'>
+		<img src="images/slide1.png" alt="">
+		<img src="images/slide2.png" alt="">
+		<img src="images/slide3.png" alt="">
+		<img src="images/slide4.png" alt="">
+		<img src="images/slide5.png" alt="">
+		<img src="images/slide6.png" alt="">
+		<img src="images/slide7.png" alt="">
+	</div>
+</div>	
+	
+
+
+<div class="content">
+	<div class="wrapper">
+		<div class="news">
+			<h3>News</h3>
+			<div class="article">
+				<img src="images/calendar.png"alt="">
+				<p class="title">Quisque at felis port <br> titordga</p>
+				<p class="date">14 May 2014</p>
+			</div>
+			<div class="article">
+				<img src="images/calendar.png" alt="">
+				<p class="title">Donec scelerisque <br> vulputate</p>
+				<p class="date">14 May 2014</p>
+			</div>
+			<div class="article">
+				<img src="images/calendar.png" alt="">
+				<p class="title">Curabitur varius quam <br> lorem</p>
+				<p class="date">14 May 2014</p>
+			</div>
+		</div>
+		<div class="aboutHotel">
+			<h3>About Hotel</h3>
+			<img src="images/aboutHotel.png" alt="">
+			<p>Semper ac dolor vitae msan crass interdwn Herdenitonia Phasellus <br> accumansan rna vitae molestine interdum Nawm sed palcret libero, non <br> eleifend dolor.</p>
+		</div>
+		<div class="customerSays">
+			<h3>Customer Says</h3>
+			<div class="comment">
+				<p><em>Semper ac dolor vitae msan crass interdwn Herdenitonia Phasellus accumansan rna vitae molestine interdum</p>
+				<p>Nawm sed palcret libero, non <br> eleifend dolor.</em></p>
+			</div>
+			<div class="customer">
+				<img src="images/johnDoe.png" alt="">
+				<p class="title">John Doe</p>
+				<p>wwww.john.com</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact">
+	<div class="wrapper flexWrapper">
+		<div class="callUs">
+			<div class="contactWrapper">
+				<h3>Call Us</h3>
+				<p>123 456 789</p>
+			</div>
+		</div>
+
+		<div class="emailUs">
+			<div class="contactWrapper">
+				<h3>Email Us</h3>
+				<p><a href="#">info@hotelbooking.com</a></p>
+			</div>
+		</div>
+
+		<div class="newsletter">
+			<form action="">
+				<div class="inputWrapper">
+					<input type="text" class="id" placeholder="Enter ID For Newsletter">
+					<input type="submit" class="go" value="go">
+				</div>
+			</form>
+		</div>
+		<div class="social">
+			<div class="socialWrapper">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-google-plus"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>	
+		</div>
+	</div>
+</div>
+<!-- end of showcase -->
+
+<footer>
+	<div class="wrapper">
+		<div class="footerSection1">
+			<img src="images/logo-full.png" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sint, cupiditate.</p>
+			<i class="fa fa-map-marker"></i>
+			<p>St Amsterdam Finland
+			<br>United States of AKY168PN</p>
+		</div>
+		<div class="footerSection quickLinks">
+			<h3>Quick Links</h3>
+
+			<ul>
+				<li><a href="#">Rooms</a></li>
+				<li><a href="#">Food & Drinks</a></li>
+				<li><a href="#">Beach Venues</a></li>
+				<li><a href="#">Amenities</a></li>
+				<li><a href="#">Noorwijk</a></li>
+				<li><a href="#">Wellness</a></li>
+				<li><a href="#">Manifesto</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<div class="footerSection">
+			<h3>We Are Global</h3>
+			<img src="images/map.jpg" alt="">
+		</div>
+	</div>	
+
+	<div class="copy">
+		<p>&copy 2015 Hotelbooking All Rights Reserved</p>
+	</div>
+</footer>
+</body>
+</html>
